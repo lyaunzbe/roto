@@ -1,0 +1,45 @@
+# less (bundled task)
+
+Pre-compiles LESS files.
+
+## Options
+
+	
+<table>
+	<tr>
+		<th>Option</th>
+		<th width="220px">Type</th>
+		<th>Comment</th>
+	</tr>
+	<tr>
+		<td valign="top"><code>files</code></td>
+		<td valign="top"><code>string</code> (or <code>array</code> of strings)</td>
+		<td valign="top">Paths of files to be concatenated. Supports basic wildcards / <a href="http://www.linuxjournal.com/content/bash-extended-globbing" target="_blank">glob syntax</a>.</td>
+	</tr>
+	<tr>
+		<td valign="top"><code>ignore</code></td>
+		<td valign="top"><code>string</code> (or <code>array</code> of strings)</td>
+		<td valign="top">Any matching paths will be ignored. Also supports glob syntax.</td>
+	</tr>
+	<tr>
+		<td valign="top"><code>compress</code></td>
+		<td valign="top"><code>string</code></td>
+		<td valign="top">Defines what type of compression to use. Either 'normal' or 'yui'. Optional.</td>
+	</tr>
+	<tr>
+		<td valign="top"><code>output</code></td>
+		<td valign="top"><code>string</code></td>
+		<td valign="top">Path of the output file.</td>
+	</tr>
+</table>
+
+## Examples
+
+```javascript
+roto.addTask('less', {
+	files  : 'css/*.less'
+	ignore : 'css/nobody_wants_me.less',
+	compress : 'yui',
+	output : 'css/stylesheet.less'
+});
+```
