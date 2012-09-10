@@ -1,6 +1,6 @@
 # less (bundled task)
 
-Pre-compiles LESS files.
+Pre-compiles [LESS stylesheets](http://lesscss.org/) to a raw CSS file.
 
 ## Options
 
@@ -37,9 +37,9 @@ Pre-compiles LESS files.
 
 ```javascript
 roto.addTask('less', {
-	files  : 'css/*.less'
-	ignore : 'css/nobody_wants_me.less',
+	files    : 'css/*.less'
+	ignore   : 'css/nobody_wants_me.less',
 	compress : 'yui',
-	output : 'css/stylesheet.less'
+	output   : 'css/stylesheet.less'
 });
 ```
