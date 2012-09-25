@@ -21,6 +21,11 @@ Syncing a folder to S3 is really easy using the `s3` task. Provide the task with
 		<td valign="top">Private S3 authrorization key.</td>
 	</tr>
 	<tr>
+		<td valign="top"><code>acl</code></td>
+		<td valign="top"><code>string</code></td>
+		<td valign="top">The value of the <a href="http://docs.amazonwebservices.com/AmazonS3/latest/dev/ACLOverview.html#CannedACL">x-amz-acl</a> header (used to control file visibility). Default: "public-read"</td>
+	</tr>
+	<tr>
 		<td valign="top"><code>method</code></td>
 		<td valign="top"><code>string</code></td>
 		<td valign="top">The name of the operation to perform (currently only `sync`).</td>
@@ -69,6 +74,11 @@ Syncing a folder to S3 is really easy using the `s3` task. Provide the task with
 		<td valign="top"><code>manifest</code></td>
 		<td valign="top"><code>string</code></td>
 		<td valign="top">The filename of the generated manifest used for delta calculations. Default: ".manifest.json"</td>
+	</tr>
+	<tr>
+		<td valign="top"><code>force</code></td>
+		<td valign="top"><code>bool</code></td>
+		<td valign="top">Force all files to be updated (even if they haven't changed).</td>
 	</tr>
 </table>
 
