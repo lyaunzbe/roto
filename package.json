@@ -2,7 +2,7 @@
 	"name": "roto",
 	"description": "A no-nonsense build tool for Node.js projects.",
 	"keywords": ["build","cli","make","rake"],
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"author": "Brian Reavis <brian@diy.org> (https://diy.org)",
 	"bin": {
 		"roto": "./bin/cli.js"
@@ -14,18 +14,17 @@
 	},
 	"preferGlobal": true,
 	"dependencies": {
-		"optimist": "=0.3.4",
-		"underscore": "=1.3.3",
-		"glob": "=3.1.9",
-		"jshint": "=0.6.1",
-		"uglify-js": "=1.2.6",
-		"bunyan": "=0.6.8",
-		"knox": "=0.0.9",
-		"mime": "=1.0.0",
-		"handlebars": "1.0.5beta",
-		"mocha": "=1.2.1",
-		"async": "=0.1.18",
-		"less": "=1.3.0"
+		"optimist": "0.3.X",
+		"underscore": "1.3.X",
+		"glob": "3.1.X",
+		"jshint": "0.9.X",
+		"uglify-js": "1.3.X",
+		"knox": "0.3.X",
+		"mime": "1.2.X",
+		"handlebars": "1.0.X",
+		"mocha": "1.5.X",
+		"async": "0.1.X",
+		"less": "1.3.X"
 	},
 	"devDependencies": {},
 	"engines": {
