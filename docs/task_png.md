@@ -41,9 +41,9 @@ The catch-all PNG compression task. Supports PNGCrush, PNGQuant, and OptiPNG.
 ## Examples
 
 ```javascript
-roto.addTask('less', {
-	files      : 'css/*.less'
-	ignore     : 'css/nobody_wants_me.less',
+roto.addTask('png', {
+	files      : 'images/*.png'
+	ignore     : 'images/not_me.png',
 	compressor : 'pngquant',
 	binaries   : {'pngquant': './custom/path/to/pngquant'},
 	workers    : 5
