@@ -29,7 +29,7 @@ The catch-all PNG compression task. Supports PNGCrush, PNGQuant, and OptiPNG.
 	<tr>
 		<td valign="top"><code>binaries</code></td>
 		<td valign="top"><code>object</code></td>
-		<td valign="top">Provides path to each binary file of the compressors. Defaults to all being stored in <code>/bin/name</code>. Use format in example below.</td>
+		<td valign="top">Provides path to each binary file of the compressors. Defaults to all being stored in <code>./bin/name</code>. Use format in example below.</td>
 	</tr>
 	<tr>
 		<td valign="top"><code>workers</code></td>
@@ -45,7 +45,7 @@ roto.addTask('less', {
 	files      : 'css/*.less'
 	ignore     : 'css/nobody_wants_me.less',
 	compressor : 'pngquant',
-	binaries   : {'pngquant': 'custom/path/to/pngquant'},
+	binaries   : {'pngquant': './custom/path/to/pngquant'},
 	workers    : 5
 });
 ```
