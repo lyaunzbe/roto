@@ -17,6 +17,7 @@ A few common, useful tasks come built-in to roto.
 * [**uglify**](/diy/roto/blob/master/docs/task_uglify.md) — Minifies Javascript source code (using [uglifyjs](https://github.com/mishoo/UglifyJS)).
 * [**mocha**](/diy/roto/blob/master/docs/task_mocha.md) — Performs unit tests (using [mocha](http://visionmedia.github.com/mocha/)).
 * [**less**](/diy/roto/blob/master/docs/task_less.md) - Precompiles [LESS stylesheets](http://lesscss.org/) to raw CSS.
+* [**png**](/diy/roto/blob/master/docs/task_png.md) - A task-suite of various PNG optimization tools..
 
 ## Setting up a Project
 
