@@ -1,6 +1,6 @@
 # png (bundled task)
 
-The catch-all PNG compression task. Supports [PNGCrush](http://en.wikipedia.org/wiki/Pngcrush), [PNGQuant](http://pngquant.org/), and [OptiPNG](http://optipng.sourceforge.net/). Unless the `binary` option is given, the executable will is expected to be in the environment's PATH.
+The catch-all PNG compression task. Supports [PNGCrush](http://en.wikipedia.org/wiki/Pngcrush), [PNGQuant](http://pngquant.org/), and [OptiPNG](http://optipng.sourceforge.net/). Unless the `binary` option is given, the executable is expected to be in the environment's PATH.
 
 ## Options
 
