@@ -34,13 +34,19 @@ var output = Handlebars.templates['comment']({
 		<td valign="top"><code>string</code></td>
 		<td valign="top">Path of the output file (js).</td>
 	</tr>
+	<tr>
+		<td valign="top"><code>compress</code></td>
+		<td valign="top"><code>bool</code></td>
+		<td valign="top">Minify output javascript?</td>
+	</tr>
 </table>
 
 ## Examples
 
 ```javascript
 roto.addTask('handlebars', {
-	files  : ['views/*.html']
-	output : 'views.js'
+	files    : ['views/*.html']
+	output   : 'views.js',
+	compress : true
 });
 ```
