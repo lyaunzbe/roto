@@ -4,7 +4,7 @@ Concatenates multiple files into a single file.
 
 ## Options
 
-	
+
 <table>
 	<tr>
 		<th>Option</th>
@@ -25,6 +25,11 @@ Concatenates multiple files into a single file.
 		<td valign="top"><code>output</code></td>
 		<td valign="top"><code>string</code></td>
 		<td valign="top">Path of the output file.</td>
+	</tr>
+	<tr>
+		<td valign="top"><code>banner</code></td>
+		<td valign="top"><code>string</code></td>
+		<td valign="top">Raw text appended to the top of the generated output. Useful for copyright notices.</td>
 	</tr>
 </table>
 

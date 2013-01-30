@@ -4,7 +4,7 @@ Minification of client-side javascript is a breeze with the built-in `uglify` ta
 
 ## Options
 
-	
+
 <table>
 	<tr>
 		<th>Option</th>
@@ -25,6 +25,11 @@ Minification of client-side javascript is a breeze with the built-in `uglify` ta
 		<td valign="top"><code>output</code></td>
 		<td valign="top"><code>string</code></td>
 		<td valign="top">Path of the output file.</td>
+	</tr>
+	<tr>
+		<td valign="top"><code>banner</code></td>
+		<td valign="top"><code>string</code></td>
+		<td valign="top">Raw text appended to the top of the generated output. Useful for copyright notices.</td>
 	</tr>
 </table>
 

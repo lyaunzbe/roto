@@ -4,7 +4,6 @@ Pre-compiles [LESS stylesheets](http://lesscss.org/) to a raw CSS file.
 
 ## Options
 
-	
 <table>
 	<tr>
 		<th>Option</th>
@@ -30,6 +29,11 @@ Pre-compiles [LESS stylesheets](http://lesscss.org/) to a raw CSS file.
 		<td valign="top"><code>output</code></td>
 		<td valign="top"><code>string</code></td>
 		<td valign="top">Path of the output file.</td>
+	</tr>
+	<tr>
+		<td valign="top"><code>banner</code></td>
+		<td valign="top"><code>string</code></td>
+		<td valign="top">Raw text appended to the top of the generated output. Useful for copyright notices.</td>
 	</tr>
 </table>
 

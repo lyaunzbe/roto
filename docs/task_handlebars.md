@@ -39,6 +39,11 @@ var output = Handlebars.templates['comment']({
 		<td valign="top"><code>bool</code></td>
 		<td valign="top">Minify output javascript?</td>
 	</tr>
+	<tr>
+		<td valign="top"><code>banner</code></td>
+		<td valign="top"><code>string</code></td>
+		<td valign="top">Raw text appended to the top of the generated output. Useful for copyright notices.</td>
+	</tr>
 </table>
 
 ## Examples
