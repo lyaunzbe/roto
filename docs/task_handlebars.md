@@ -39,7 +39,7 @@ var output = Handlebars.templates['comment']({
 ## Examples
 
 ```javascript
-roto.addTask('uglify', {
+roto.addTask('handlebars', {
 	files  : ['views/*.html']
 	output : 'views.js'
 });

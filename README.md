@@ -5,7 +5,7 @@
 Roto is designed to be a lean build tool. Build targets are defined as functions. Inside of which, simply add tasks that are executed *sequentally*. Roto is in its very early stages—use it with some caution.
 
 **To install**: `npm install -g roto`
-   
+
 ## Bundled Tasks
 
 A few common, useful tasks come built-in to roto.
@@ -32,7 +32,7 @@ module.exports = function(roto) {
 			ignore : ['js/*.min.js'],
 			output : 'js/combined.min.js'
 		});
-			
+
 		// do something custom
 		roto.addTask(function(callback) {
 			roto.notice('This isn\'t using a predefined task. Saweet.');
@@ -109,7 +109,7 @@ The available colors are currently: `red`, `yellow`, `green`, and `white` (bold)
 
 ### Defining Reusable Tasks
 
-For defining custom tasks that can be reused (like the predefined ones that come bundled with roto), use: 
+For defining custom tasks that can be reused (like the predefined ones that come bundled with roto), use:
 
 ```javascript
 roto.defineTask(name, function(callback, options, target, globalOptions) {

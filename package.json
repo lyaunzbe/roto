@@ -3,7 +3,7 @@
 	"description": "A no-nonsense build tool for Node.js projects.",
 	"keywords": ["build","cli","make","rake"],
 	"version": "0.2.0",
-	"author": "Brian Reavis <brian@diy.org> (https://diy.org)",
+	"author": "Brian Reavis <brian@thirdroute.com>",
 	"bin": {
 		"roto": "./bin/cli.js"
 	},
