@@ -28,7 +28,7 @@ var argv = optimist.usage('Usage: $0 [target] [options]').argv;
 // selected build target
 // ------------------------------------------------------------------------------------
 
-var target = argv._.length ? argv._[0] : 'all';
+var target = argv._.length ? argv._[0] : null;
 
 // extract global options
 // ------------------------------------------------------------------------------------
