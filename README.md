@@ -10,17 +10,17 @@ Roto is designed to be a lean build tool. Build targets are defined as functions
 
 A few common, useful tasks come built-in to roto.
 
-* [**s3**](/diy/roto/blob/master/docs/task_s3.md) — Syncs a local folder to S3.
-* [**concat**](/diy/roto/blob/master/docs/task_concat.md) — Concatenates two or more files.
-* [**handlebars**](/diy/roto/blob/master/docs/task_handlebars.md) — Precompiles [Handlebars](http://handlebarsjs.com/) templates to JS.
+* [**s3**](docs/task_s3.md) — Syncs a local folder to S3.
+* [**concat**](docs/task_concat.md) — Concatenates two or more files.
+* [**handlebars**](docs/task_handlebars.md) — Precompiles [Handlebars](http://handlebarsjs.com/) templates to JS.
 * [**lint**](#) — Validates Javascript source code (using [jshint](https://github.com/jshint/jshint/)).
-* [**uglify**](/diy/roto/blob/master/docs/task_uglify.md) — Minifies Javascript source code (using [uglifyjs](https://github.com/mishoo/UglifyJS)).
-* [**mocha**](/diy/roto/blob/master/docs/task_mocha.md) — Performs unit tests (using [mocha](http://visionmedia.github.com/mocha/)).
-* [**less**](/diy/roto/blob/master/docs/task_less.md) - Precompiles [LESS stylesheets](http://lesscss.org/) to raw CSS.
-* [**png**](/diy/roto/blob/master/docs/task_png.md) - A suite of various PNG optimization tools (pngcrush, pngquant, and optipng).
-* [**dir-copy**](/diy/roto/blob/master/docs/task_dir-copy.md) - Copies a directory and its contents.
-* [**dir-move**](/diy/roto/blob/master/docs/task_dir-move.md) - Moves a directory and its contents.
-* [**dir-remove**](/diy/roto/blob/master/docs/task_dir-remove.md) - Deletes a directory and its contents.
+* [**uglify**](docs/task_uglify.md) — Minifies Javascript source code (using [uglifyjs](https://github.com/mishoo/UglifyJS)).
+* [**mocha**](docs/task_mocha.md) — Performs unit tests (using [mocha](http://visionmedia.github.com/mocha/)).
+* [**less**](docs/task_less.md) - Precompiles [LESS stylesheets](http://lesscss.org/) to raw CSS.
+* [**png**](docs/task_png.md) - A suite of various PNG optimization tools (pngcrush, pngquant, and optipng).
+* [**dir-copy**](docs/task_dir-copy.md) - Copies a directory and its contents.
+* [**dir-move**](docs/task_dir-move.md) - Moves a directory and its contents.
+* [**dir-remove**](docs/task_dir-remove.md) - Deletes a directory and its contents.
 
 ## Setting up a Project
 

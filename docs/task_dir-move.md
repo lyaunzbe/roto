@@ -1,4 +1,4 @@
-# dir-copy (bundled task)
+# dir-move (bundled task)
 
 Moves a directory and its contents to a new location.
 
