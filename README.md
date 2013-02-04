@@ -16,11 +16,11 @@ A few common, useful tasks come built-in to roto.
 * [**lint**](#) — Validates Javascript source code (using [jshint](https://github.com/jshint/jshint/)).
 * [**uglify**](docs/task_uglify.md) — Minifies Javascript source code (using [uglifyjs](https://github.com/mishoo/UglifyJS)).
 * [**mocha**](docs/task_mocha.md) — Performs unit tests (using [mocha](http://visionmedia.github.com/mocha/)).
-* [**less**](docs/task_less.md) - Precompiles [LESS stylesheets](http://lesscss.org/) to raw CSS.
-* [**png**](docs/task_png.md) - A suite of various PNG optimization tools (pngcrush, pngquant, and optipng).
-* [**dir-copy**](docs/task_dir-copy.md) - Copies a directory and its contents.
-* [**dir-move**](docs/task_dir-move.md) - Moves a directory and its contents.
-* [**dir-remove**](docs/task_dir-remove.md) - Deletes a directory and its contents.
+* [**less**](docs/task_less.md) — Precompiles [LESS stylesheets](http://lesscss.org/) to raw CSS.
+* [**png**](docs/task_png.md) — A suite of various PNG optimization tools (pngcrush, pngquant, and optipng).
+* [**dir-copy**](docs/task_dir-copy.md) — Copies a directory and its contents.
+* [**dir-move**](docs/task_dir-move.md) — Moves a directory and its contents.
+* [**dir-remove**](docs/task_dir-remove.md) — Deletes a directory and its contents.
 
 ## Setting up a Project
 
