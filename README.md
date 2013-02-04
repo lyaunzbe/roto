@@ -18,6 +18,9 @@ A few common, useful tasks come built-in to roto.
 * [**mocha**](/diy/roto/blob/master/docs/task_mocha.md) — Performs unit tests (using [mocha](http://visionmedia.github.com/mocha/)).
 * [**less**](/diy/roto/blob/master/docs/task_less.md) - Precompiles [LESS stylesheets](http://lesscss.org/) to raw CSS.
 * [**png**](/diy/roto/blob/master/docs/task_png.md) - A suite of various PNG optimization tools (pngcrush, pngquant, and optipng).
+* [**dir-copy**](/diy/roto/blob/master/docs/task_dir-copy.md) - Copies a directory and its contents.
+* [**dir-move**](/diy/roto/blob/master/docs/task_dir-move.md) - Moves a directory and its contents.
+* [**dir-remove**](/diy/roto/blob/master/docs/task_dir-remove.md) - Deletes a directory and its contents.
 
 ## Setting up a Project
 

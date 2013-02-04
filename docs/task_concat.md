@@ -4,7 +4,6 @@ Concatenates multiple files into a single file.
 
 ## Options
 
-
 <table>
 	<tr>
 		<th>Option</th>
