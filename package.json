@@ -25,7 +25,8 @@
 		"mocha": "1.5.X",
 		"async": "0.1.X",
 		"less": "1.3.X",
-		"wrench": "1.4.X"
+		"wrench": "1.4.X",
+    "yuidocjs": "0.3.X"
 	},
 	"devDependencies": {},
 	"engines": {
