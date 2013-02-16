@@ -28,7 +28,7 @@ The `yuidoc` task generates API documentation from comments in source, using fam
 	<tr>
 		<td valign="top"><code>exclude</code></td>
 		<td valign="top"><code>Array</code></td>
-		<td valign="top">An array of files (name and extension) that you don't want parsed.</td>
+		<td valign="top">A string of comma seperated files (name and extension) that you don't want to exclude from parsing.</td>
 	</tr>
 	<tr>
 		<td valign="top"><code>ignorePaths</code></td>
